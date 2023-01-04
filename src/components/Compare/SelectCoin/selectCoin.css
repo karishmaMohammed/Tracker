@@ -1,0 +1,28 @@
+.select-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1.5rem 3rem;
+  }
+  
+  .select-coin {
+    width: 8rem;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .select-flex {
+      justify-content: space-between;
+      gap: 0rem;
+      margin: 1.5rem 0.5rem;
+    }
+  
+    .select-flex p {
+      display: none;
+    }
+  
+    .select-coin {
+      width: 7rem;
+    }
+  }
